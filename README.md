@@ -66,7 +66,7 @@ Server available at http://127.0.0.1:5000
 
 [Example Output]
 
-
+```
 Request: http://localhost:5000/check/example
 
 Output: text/xml
@@ -83,3 +83,4 @@ Output: text/xml
     <response_time>1000</response_time>
 </pingdom_http_custom_check> 
 
+```
