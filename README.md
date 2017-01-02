@@ -3,6 +3,7 @@ Simple Pingdom Monitor - Embedded Mojolicious HTTP server with basic end points 
 
 [Usage]
 
+```
 # ./pingdom.pl
 Usage: APPLICATION COMMAND [OPTIONS]
 
@@ -37,10 +38,11 @@ Commands:
  version   Show versions of available modules
 
 See 'APPLICATION help COMMAND' for more information on a specific command.
-
+```
 
 [Launching]
 
+```
 # ./pingdom.pl daemon -l http://*:5000
 [Mon Jan  2 14:45:14 2017] [info] Listening at "http://*:5000"
 Server available at http://127.0.0.1:5000
@@ -59,6 +61,8 @@ Server available at http://127.0.0.1:5000
 [Mon Jan  2 14:45:39 2017] [debug] GET "/check/example"
 [Mon Jan  2 14:45:39 2017] [debug] Routing to a callback
 [Mon Jan  2 14:45:40 2017] [debug] 200 OK (0.0556s, 17.986/s)
+
+```
 
 [Example Output]
 
