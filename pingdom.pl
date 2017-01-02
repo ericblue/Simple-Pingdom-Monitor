@@ -32,10 +32,10 @@ sub render_status {
     my ($c, $status, $total_time) = @_;
     
      my $response = qq{
-	  <pingdom_http_custom_check>
-        <status>$status</status>
-        <response_time>$total_time</response_time>
-	  </pingdom_http_custom_check> 
+        <pingdom_http_custom_check>
+	    <status>$status</status>
+	    <response_time>$total_time</response_time>
+	</pingdom_http_custom_check> 
     };
  
     $c->render(format => 'xml', data => $response);
